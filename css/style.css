@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
+
+body {
+	margin: 60px auto; 
+	width: 70%;
+	font-size: 100%;
+	line-height: 1.5;
+	font-family: 'Gentium Book Basic';
+}
+  
+a { 
+	text-decoration: none; 
+	color: #0188a9; 
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+
+h1, h2, h3, h4, p, ul, ol { 
+	font-family: 'Gentium Book Basic';  
+	line-height: 1.4;
+}
+
+p, ul { 
+	font-size: 1.25em; 
+	color: #333; 
+}
+
+h1, .h1 {
+	font-size: 2.7em;
+}
+ 
+h2, .h2 {
+	font-size: 2.2em;
+}
+  
+h3. .h3 { 
+	font-size: 2em;   
+}
+
+h4, .h4 { 
+	font-size: 1.5em; 
+}
+
+nav ul, footer ul { 
+	font-size: 1.25em; 
+	font-family: 'Gentium Book Basic'; 
+	padding: 0px; 
+	list-style: none; 
+}
+
+nav ul li, footer ul li { 
+	display: inline; 
+	margin-right: 20px; 
+}
+
+ 
+footer { 
+	border-top: 1px solid #d5d5d5; 
+	font-size: 0.8em; 
+	line-height: 1em;
+	font-family: 'Gentium Book Basic';
+}
+
+/* Blog */
+ul.posts { 
+	margin: 20px auto 40px; 
+	font-size: 1.25em; 
+	line-height: 1.25em;
+	font-family: 'Gentium Book Basic';
+}
+
+ul.posts li { 
+	list-style: none; 
+}
+
